@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace Library_System
 {
     public class Library
-    {// This class manages a collection of library items (books, DVDs, etc.)
+    {// This class manages a collection of library items (books, DVDs, etc.).
         private List<LibraryItem> items = new List<LibraryItem>();
 
         public void AddItem(LibraryItem item) => items.Add(item);
